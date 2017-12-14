@@ -2,7 +2,7 @@ This repository contains an implementation of the [U-Net](https://arxiv.org/abs/
 
 The parameter efficient version of the U-Net uses concatenated ReLUs, full pre-activation identity connections, batch normalization, and depth-wise separable convolutions to reduce the parameter count by over 60 % while obtaining Dice scores comparable to the original U-Net.
 
-# General Overview
+## General Overview
 
 The network architectures are defined in **networks.py** in the **architecture** folder. They make use of the layers and building blocks defined in **layers.py** in the same folder.
 
@@ -16,7 +16,7 @@ The file **lesion_generate_predictions.py** and **liver_generate_predictions.py*
 
     python lesion_generate_predictions.py --help
 
-# Installation
+## Installation
 
 Just clone the repository into the directory of your choice. Make sure the dpp library is available in your Python path. If it is not, you can use
 
