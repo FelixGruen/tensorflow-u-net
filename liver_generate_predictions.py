@@ -10,9 +10,10 @@ import tensorflow as tf
 import nibabel
 import scipy.ndimage
 
-import liver_preprocessing as preprocessing
-import measurements
-import unet
+import utils.liver_preprocessing as preprocessing
+import utils.measurements as measurements
+
+import architecture.networks as networks
 
 # Command Line Arguments
 
@@ -50,9 +51,9 @@ activation_function = "ReLU" if args.no_crelu else "cReLU"
 print "Setting up the architecture with {} and batch normalization {} ...".format(activation_function, "enabled" if batch_norm else "disabled")
 
 if not args.unet:
-    tf_inputs, tf_logits, _, tf_keep_prob, tf_training = unet.parameter_efficient(in_channels=in_channels, out_channels=2, start_filters=90, input_side_length=256, sparse_labels=True, batch_size=batch_size, activation=activation_function, batch_norm=batch_norm)
+    tf_inputs, tf_logits, _, tf_keep_prob, tf_training = networks.parameter_efficient(in_channels=in_channels, out_channels=2, start_filters=90, input_side_length=256, sparse_labels=True, batch_size=batch_size, activation=activation_function, batch_norm=batch_norm)
 else:
-    tf_inputs, tf_logits, _, tf_keep_prob = unet.unet(in_channels=in_channels, out_channels=2, start_filters=64, input_side_length=256, sparse_labels=True, batch_size=batch_size, padded_convolutions=True)
+    tf_inputs, tf_logits, _, tf_keep_prob = networks.unet(in_channels=in_channels, out_channels=2, start_filters=64, input_side_length=256, sparse_labels=True, batch_size=batch_size, padded_convolutions=True)
 
 tf_prediction = tf.to_int32(tf.argmax(tf_logits, 3, name='prediction'))
 
