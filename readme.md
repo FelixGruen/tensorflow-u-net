@@ -18,7 +18,7 @@ The file **lesion_generate_predictions.py** and **liver_generate_predictions.py*
 
 ## Installation
 
-Just clone the repository into the directory of your choice. Make sure the dpp library is available in your Python path. If it is not, you can use
+Simply clone the repository into the directory of your choice. Make sure the dpp library is available in your Python path. If it is not, you can use
 
     export PYTHONPATH=$PYTHONPATH:/path/to/the/data-processing-pipeline/
 
