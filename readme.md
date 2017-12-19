@@ -23,3 +23,31 @@ Simply clone the repository into the directory of your choice. Make sure the dpp
     export PYTHONPATH=$PYTHONPATH:/path/to/the/data-processing-pipeline/
 
 to add it.
+
+## See also
+
+The code implements the Cascaded-FCN approach presented in
+
+---
+
+Christ, P. F., et al. "Automatic liver and lesion segmentation in CT using cascaded fully convolutional neural networks and 3D conditional random fields". *International Conference on Medical Image Computing and Computer-Assisted Intervention.* 2016. URL: <https://arxiv.org/abs/1610.02177>
+
+---
+
+and used in
+
+---
+
+Christ, P. F., et al. "Automatic Liver and Tumor Segmentation of CT and MRI Volumes using Cascaded Fully Convolutional Neural Networks". *arXiv preprint arXiv:1702.05970.* 2017. URL: <https://arxiv.org/abs/1702.05970>
+
+---
+
+and
+
+---
+
+Christ, P. F., et al. "SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks". *IEEE International Symposium on Biomedical Imaging.* 2017. URL: <https://arxiv.org/abs/1702.05941>
+
+---
+
+For more code related to medical imaging, please see the repository of the IBBM research group at <https://github.com/IBBM/>.
