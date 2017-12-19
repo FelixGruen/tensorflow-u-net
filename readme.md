@@ -30,7 +30,7 @@ The code implements the Cascaded-FCN approach presented in
 
 ---
 
-Christ, P. F., Elshaer, M. E. A., Ettlinger, F., Tatavarty, S., Bickel, M., Bilic, P., Rempfler, M., Armbruster, M., Hofmann, F., D'Anastasi, M., Sommer W. H., Ahmadi, S.-A., Menze, B. H. "Automatic liver and lesion segmentation in CT using cascaded fully convolutional neural networks and 3D conditional random fields". *International Conference on Medical Image Computing and Computer-Assisted Intervention.* 2016. URL: <https://arxiv.org/abs/1610.02177>
+Christ, P. F., Elshaer, M. E. A., Ettlinger, F., Tatavarty, S., Bickel, M., Bilic, P., Rempfler, M., Armbruster, M., Hofmann, F., D'Anastasi, M., Sommer W. H., Ahmadi, S.-A., Menze, B. "Automatic liver and lesion segmentation in CT using cascaded fully convolutional neural networks and 3D conditional random fields". *International Conference on Medical Image Computing and Computer-Assisted Intervention.* 2016. URL: <https://arxiv.org/abs/1610.02177>
 
 ---
 
