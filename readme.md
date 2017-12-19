@@ -30,7 +30,7 @@ The code implements the Cascaded-FCN approach presented in
 
 ---
 
-Christ, P. F., et al. "Automatic liver and lesion segmentation in CT using cascaded fully convolutional neural networks and 3D conditional random fields". *International Conference on Medical Image Computing and Computer-Assisted Intervention.* 2016. URL: <https://arxiv.org/abs/1610.02177>
+Christ, P. F., Elshaer, M. E. A., Ettlinger, F., Tatavarty, S., Bickel, M., Bilic, P., Rempfler, M., Armbruster, M., Hofmann, F., D'Anastasi, M., Sommer W. H., Ahmadi, S.-A., Menze, B. H. "Automatic liver and lesion segmentation in CT using cascaded fully convolutional neural networks and 3D conditional random fields". *International Conference on Medical Image Computing and Computer-Assisted Intervention.* 2016. URL: <https://arxiv.org/abs/1610.02177>
 
 ---
 
@@ -38,7 +38,7 @@ and used in
 
 ---
 
-Christ, P. F., et al. "Automatic Liver and Tumor Segmentation of CT and MRI Volumes using Cascaded Fully Convolutional Neural Networks". *arXiv preprint arXiv:1702.05970.* 2017. URL: <https://arxiv.org/abs/1702.05970>
+Christ, P. F., Ettlinger, F., Grün, F., Elshaera, M. E. A., Lipkova, J., Schlecht, S., Ahmaddy, F., Tatavarty, S., Bickel, M., Bilic, P., Rempfler, M., Hofmann, F.,D'Anastasi, M., Ahmadi, S.-A., Kaissis, G., Holch, J., Sommer, W., Braren, R., Heinemann, V., Menze, B. "Automatic Liver and Tumor Segmentation of CT and MRI Volumes using Cascaded Fully Convolutional Neural Networks". *arXiv preprint arXiv:1702.05970.* 2017. URL: <https://arxiv.org/abs/1702.05970>
 
 ---
 
@@ -46,7 +46,7 @@ and
 
 ---
 
-Christ, P. F., et al. "SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks". *IEEE International Symposium on Biomedical Imaging.* 2017. URL: <https://arxiv.org/abs/1702.05941>
+Christ, P. F., Ettlinger, F., Kaissis, G., Schlecht, S., Ahmaddy, F., Grün, F., Valentinitsch, A., Ahmadi, S.-A., Braren, R., Menze, B. "SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks". *IEEE International Symposium on Biomedical Imaging.* 2017. URL: <https://arxiv.org/abs/1702.05941>
 
 ---
 
