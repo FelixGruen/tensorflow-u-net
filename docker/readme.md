@@ -1,4 +1,4 @@
-The Docker image built from the files in this directory, creates liver lesion prediction volumes for all medical volumes in a given directory. When started the Docker container loads all NiBabel volumes in the given directory one-by-one, segments, first, the liver and, second, the liver lesions and saves the liver lesion segmentations in NiBabel volumes in the same directory before closing itself.
+The Docker image built from the files in this directory, creates liver lesion prediction volumes for all medical volumes in a given directory. When started, the Docker container loads all NiBabel volumes in the given directory one-by-one, segments, first, the liver and, second, the liver lesions and saves the liver lesion segmentations in NiBabel volumes in the same directory before closing itself.
 
 This particular directory contains all the files needed to build the docker image, except the saved models themselves which have to be downloaded separately.
 
@@ -6,11 +6,11 @@ This particular directory contains all the files needed to build the docker imag
 
 Download the saved model files from [OneDrive](https://1drv.ms/f/s!AgZ-sMRclB9bokSYBQFdDkAethTw) and place the folder "models" containing the saved models inside the folder "build_files".
 
-Then simply run
+Then switch to the "docker" directory, where the Dockerfile is placed, and run
 
     docker build -t username/imagename .
 
-in this directory where the Dockerfile is placed. Use the -t flag to give your newly created Docker image a name.
+Use the -t flag to give your newly created Docker image a name.
 
 ## Use the Docker Image
 
