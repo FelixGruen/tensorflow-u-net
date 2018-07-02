@@ -1,3 +1,5 @@
+**The code for this project was developed during my master studies at TU Munich. I have graduated since then and unfortunately I currently don't have the time to provide support for this project. I will leave the documentation and code online, but please note that they are provided as is.**
+
 This repository contains an implementation of the [U-Net](https://arxiv.org/abs/1505.04597) and of a more parameter efficient variant of the U-Net as well as the code needed to train a network on the [LiTS lesion dataset](http://lits-challenge.com/). The entire code is written in Python 2 and uses the [TensorFlow](http://tensorflow.org/) library for the implementation and training of the models and the [Data Processing Pipeline (dpp)](https://github.com/FelixGruen/data-processing-pipeline) library for the implementation of the pre-processing pipeline.
 
 The parameter efficient version of the U-Net uses concatenated ReLUs, full pre-activation identity connections, batch normalization, and depth-wise separable convolutions to reduce the parameter count by over 60 % while obtaining Dice scores comparable to the original U-Net.
